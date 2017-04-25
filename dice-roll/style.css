@@ -1,0 +1,30 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+body {
+    background-color: #d1c9db;
+}
+
+button {
+    background-color: #bf3426;
+    border-radius: 6px;
+    border: 2px solid #39282a;
+    color:  #d1c9db;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+}
+
+#placeholder {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 2px solid #39282a;
+    border-radius: 10px;
+    font-size: 5rem;
+}
