@@ -1,9 +1,12 @@
 function Dice(sides) {
     this.sides = sides;
-    this.roll = function() {
+    this.roll = diceRoll;
+}
+
+Dice.prototype.roll = function () {
         var randomNumber = Math.floor(Math.random() * this.sides) + 1;
         return randomNumber;
     }
-}
-var dice = new Dice(6);
 
+var dice = new Dice(6);
+var dice = new Dice(10);
